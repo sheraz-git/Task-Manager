@@ -1,0 +1,311 @@
+.main_container {
+  width: 100%;
+}
+.header {
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+/* .navbar{
+    width: 100%;
+    background-color: red;
+} */
+.main_body {
+  width: 100%;
+  display: flex;
+}
+.main_bodyleft {
+  width: 50%;
+}
+.main_bodyright {
+  width: 50%;
+  padding: 10px 0;
+}
+#logoname {
+  font-family: "Pacifico", cursive;
+  font-size: 36px;
+  font-weight: bold;
+  color: #3a3a3a;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
+  margin: 20px auto;
+  border-bottom: 2px solid #3a3a3a;
+  width: 70%;
+}
+.logintag {
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 36px;
+  font-weight: bold;
+  color: #3a3a3a;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
+  margin: 20px auto;
+}
+.dashboard {
+  font-family: "Pacifico", cursive;
+  font-size: 36px;
+  font-weight: bold;
+  color: #3a3a3a;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
+}
+.leftside {
+  width: 30%;
+  padding: 5px 0;
+  background: linear-gradient(to right, #00f260, #0575e6);
+}
+.center {
+  width: 40%;
+  background: linear-gradient(to left, #00f260, #0575e6);
+  padding: 20px 0;
+}
+.rightside {
+  width: 30%;
+  padding: 30px 0;
+  background: linear-gradient(to right, #00f260, #0575e6);
+}
+.button1 {
+  background: linear-gradient(to right, #1e90ff, #00ff7f);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease-in-out;
+}
+.button1 a {
+  text-decoration: none;
+  color: black;
+}
+.inner {
+  width: 70%;
+  padding: 20px 0;
+  margin: auto;
+  border-radius: 5px;
+  background: linear-gradient(to right, #1e90ff, #00ff7f);
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.31);
+  background: white;
+}
+.centerform {
+  width: 75%;
+  margin: auto;
+  padding: 20px 0px;
+  border-radius: 5px;
+  border: solid 1px #ccc;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.31);
+  background: linear-gradient(to right, #1e90ff, #00ff7f);
+}
+.bars {
+  width: 80%;
+  height: 35px;
+  display: block;
+  outline: none;
+  border-color: red;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+#tag {
+  margin-left: 30px;
+  color: black;
+}
+.butt1 {
+  background: linear-gradient(to right, #1e90ff, #00ff7f);
+  border: none;
+  color: black;
+  position: relative;
+  left: 250px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease-in-out;
+}
+.but {
+  background: linear-gradient(to right, #1e90ff, #00ff7f);
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  position: relative;
+  left: 100px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease-in-out;
+}
+.button1 {
+  background: linear-gradient(to right, #1e90ff, #00ff7f);
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease-in-out;
+}
+.main {
+  width: 100%;
+  height: 400px;
+  display: flex;
+}
+.maindashboard {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  width: 20%;
+}
+.right {
+  width: 80%;
+  padding: 0 40px;
+  display: flex;
+}
+.maindiv {
+  width: 100%;
+  padding: 50px 0px;
+}
+.logoutbutton {
+  background: linear-gradient(to right, #1e90ff, #00ff7f);
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease-in-out;
+}
+
+logoutbutton:hover {
+  transform: scale(1.05);
+}
+#select {
+  background: linear-gradient(to right, #1e90ff, #00ff7f);
+  border: 2px solid #000000; /* Black */
+  color: #000000; /* Black */
+  padding: 10px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 15px;
+  border-radius: 0; /* Square */
+  cursor: pointer;
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.5);
+  transition: transform 0.2s ease-in-out;
+}
+
+#select:hover {
+  transform: scale(1.05);
+}
+#select a {
+  text-decoration: none;
+}
+/* ////////////////////////////// */
+
+.task-form {
+  width: 100%;
+  padding: 50px 0;
+}
+
+.center {
+  width: 40%;
+  background-color: var(--primary-color);
+  margin: auto;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  margin-left: 1.5rem;
+  color: black;
+}
+.add{
+  display: block;
+  width: 80%;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+  font-family: 'Roboto', sans-serif;
+  transition: border-color 0.2s ease-in-out;
+  margin: auto;
+ 
+}
+
+:root {
+  --primary-color: #0069d9;
+}
+.form-error {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+}
+#End_Date_Time{
+margin-left: 2rem;
+
+}
+.buttonstask{
+  background: linear-gradient(to right, #1e90ff, #00ff7f);
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  left: 180px;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease-in-out;
+
+}
+.dashbod{
+  display: block;
+  background: linear-gradient(to right, #1e90ff, #00ff7f);
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  left: 80px;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease-in-out;
+}
+
+.tasknames{
+font-size: 15px;
+color: white;
+}
+#tasknames{
+  font-size: 10px;
+  color: white;
+}
